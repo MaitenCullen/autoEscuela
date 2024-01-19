@@ -4,7 +4,7 @@ import Carousel from './components/Carousel'
 
 export default function Home() {
   return (
-    <main className="">
+    <main className="bg-white h-full">
       <Header/>
       <Carousel/>
     </main>
