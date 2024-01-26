@@ -29,11 +29,11 @@ export default function Header() {
               </div>
           </div> 
             <div> 
-              <h1 className="text-black leading-9 text-center">TiTUlo</h1>
-              <h2 className="text-black leading-9 text-center">descripcion</h2>
+              <h1 className="text-black leading-9 text-center">Rumbo Norte</h1>
+              <h2 className="text-black leading-9 text-center">Escuela de manejo pensada a tu medida</h2>
             </div>
             <div className="flex flex-col items-center ">
-              <p className="text-black leading-7 text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, sit quasi! Mollitia, temporibus delectus, et blanditiis quae provident quibusdam perspiciatis iste officiis assumenda atque. Expedita labore dicta nam distinctio quasi.</p>
+              <p className="text-black leading-7 text-center">Con varios años de experiencia, nos posicionamos como una autoescuela distinta. Las clases son personalizadas, podes asistir a la cantidad que de verdad vos necesites, aprendiendo sin presiones. Creemos que cada persona tiene tiempos y necesidades distintas al momento de aprender, por ello nuestras clases son distintias según lo que el usuario desee. </p>
               <button className="btn  btn-success btn-xs sm:btn-sm md:btn-md lg:btn-lg">Contactanos</button>
             </div>
         </div>
