@@ -1,5 +1,6 @@
 "use client"
 import React from "react";
+import { TiStar } from "react-icons/ti";
 
 
 interface TestimonialProps {
@@ -11,13 +12,16 @@ interface TestimonialProps {
 
 export default function Testimonial(props: TestimonialProps) {
     return (
-        <div className="card w-96 bg-transparent text-neutral-content">
-        <div className="card-body items-center text-center">
-          <h2 className="card-title">{props.title}</h2>
-          <p>{props.description}</p>
-          <div className="card-actions justify-end">
-            <button className="btn btn-primary">{props.button}</button>
-            <button className="btn btn-ghost">{props.button}</button>
+        <div className="card  shadow-xl  bg-white text-neutral-content m-2">
+        <div className="card-body items-center text-center p-2">
+          <h2 className="card-title text-greenLight font-mono">{props.title}</h2>
+          <p className="text-black">{props.description}</p>
+          <div className="flex">
+          <TiStar color="red" />
+          <TiStar color="red"/>
+          <TiStar color="red"/>
+          <TiStar color="red"/>
+          <TiStar color="red"/>
           </div>
         </div>
       </div>

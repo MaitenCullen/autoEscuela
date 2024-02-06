@@ -14,7 +14,10 @@ const config: Config = {
       'red':'#EA3322',
       'green':'#53AD63',
       'yellow':'#FFF46E',
-      'grey':'#F6F6F6'
+      'grey':'#F6F6F6',
+      'greenLight':'#49a773',
+      'grennGrey':'#C2D7C6',
+      'yellowLight':'#FFFBCD'
     },
     extend: {
       backgroundImage: {

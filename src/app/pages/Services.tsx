@@ -9,7 +9,7 @@ export default function Services() {
   return (
         <>
         <section className="w-full p-4">
-            <div className="p-4 flex justify-between w-full">
+            <div className="p-4 md:flex md:flex-col md:justify-center md:items-center sm:flex sm:flex-col sm:justify-center sm:items-center lg:flex lg:justify-center lg:flex-row w-full">
             {servicesArray.map((service) => (
             <Card  key={service.id} {...service}/>
         ))}

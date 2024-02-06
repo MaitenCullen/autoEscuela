@@ -29,19 +29,19 @@ export default function ContactForm() {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      <div>
+    <form onSubmit={handleSubmit} className='m-10'>
+      <div className='flex flex-col text-black font-mono'>
         <label htmlFor="name">Name:</label>
-        <input placeholder="Type here" className="bg-transparent input input-bordered input-md w-full max-w-xs"
+        <input placeholder="Type here" className="bg-white border-2 border-green input-success input input-bordered input-md w-full my-2 text-white"
          type="text"
          id="name"
          name="name"
          value={formData.name}
          onChange={handleChange} />
       </div>
-      <div>
+      <div className='flex flex-col text-black font-mono'>
         <label htmlFor="email">Email:</label>
-        <input placeholder="Type here" className=" bg-transparent input input-bordered input-md w-full max-w-xs"
+        <input placeholder="Type here" className=" bg-white input  border-2 border-green input-success input-bordered input-md  my-2 w-full text-white"
           type="email"
           id="email"
           name="email"
@@ -49,16 +49,16 @@ export default function ContactForm() {
           onChange={handleChange}
         />
       </div>
-      <div>
+      <div className='flex flex-col text-black font-mono'>
         <label htmlFor="textarea">Consulta:</label>
-        <textarea className="bg-transparent textarea textarea-primary" placeholder="Bio"
+        <textarea className="bg-white textarea textarea-bordered textarea-green  textarea-success border-2 border-green input-success text-white my-2" placeholder="Bio"
          id="text"
          name="text"
          value={formData.text}
          onChange={handleChange}
         ></textarea>
       </div>
-      <button type="submit">Submit</button>
+      <button type="submit" className='btn btn-green bg-green text-white border-transparent'>Submit</button>
     </form>
   );
 }
